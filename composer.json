@@ -1,5 +1,5 @@
 {
-    "name": "joinapi/larament",
+    "name": "joinapi/laravel",
     "type": "project",
     "description": "A starter template for building projects with Laravel and FilamentPHP.",
     "keywords": [

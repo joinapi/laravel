@@ -1,16 +1,4 @@
-# Larament
-
-[![Pint](https://github.com/codewithdennis/larament/actions/workflows/pint.yml/badge.svg)](https://packagist.org/packages/codewithdennis/larament)
-[![PEST](https://github.com/codewithdennis/larament/actions/workflows/pest.yml/badge.svg)](https://packagist.org/packages/codewithdennis/larament)
-[![PHPStan](https://github.com/CodeWithDennis/larament/actions/workflows/phpstan.yml/badge.svg)](https://github.com/CodeWithDennis/larament/actions/workflows/phpstan.yml)
-[![Total Installs](https://img.shields.io/packagist/dt/codewithdennis/larament.svg?style=flat-square)](https://packagist.org/packages/codewithdennis/larament)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/codewithdennis/larament.svg?style=flat-square)](https://packagist.org/packages/codewithdennis/larament)
-
-![Larament](https://raw.githubusercontent.com/CodeWithDennis/larament/main/resources/images/larament.png)
-
-**Larament** is a time-saving starter kit to quickly launch Laravel projects. It includes **FilamentPHP** pre-installed and configured, along with additional tools and features to streamline your development workflow.
-
----
+# JOINAPI - Laravel ( Larament based )
 
 ## Table of Contents
 
@@ -49,7 +37,6 @@
 - Custom `php artisan make:filament-action` command for generating Filament actions.
 
 ### Design
-![User Global Search](https://raw.githubusercontent.com/CodeWithDennis/larament/main/resources/images/user-global-search.jpg)
 
 - Filament Panel's primary color is preset to blue.
 - Single Page Application (SPA) mode enabled by default.
@@ -69,18 +56,6 @@ DEFAULT_USER_EMAIL="admin@example.com"
 DEFAULT_USER_PASSWORD="password"
 ```
 
-## Included Packages
-
-The following packages are pre-installed:
-
-- [timokoerber/laravel-one-time-operations](https://github.com/TimoKoerber/laravel-one-time-operations)
-- [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar)
-- [phpstan/phpstan](https://phpstan.org/user-guide/getting-started)
-- [pestphp/pest](https://pestphp.com/docs/installation)
-  - [pestphp/pest-plugin-faker](https://pestphp.com/docs/plugins#faker)
-  - [pestphp/pest-plugin-laravel](https://pestphp.com/docs/plugins#laravel)
-  - [pestphp/pest-plugin-livewire](https://pestphp.com/docs/plugins#livewire)
-
 ## Installation
 ### Using the Template
 - Create a repository using the Larament template.
@@ -99,18 +74,18 @@ php artisan db:seed
 Alternatively, you can use the following command to create a new project with Larament:
 
 ```bash
-composer create-project --prefer-dist CodeWithDennis/larament example-app
+composer create-project --prefer-dist joinapi/laravel example-app
 ```
 
 ### Create a Terminal Alias
 For easier usage in future projects, create an alias in your terminal:
 
 ```bash
-alias larament="composer create-project --prefer-dist CodeWithDennis/larament"
+alias joinapp="composer create-project --prefer-dist joinapi/laravel"
 ```
 
 Now, you can create a new project with a simple command:
 
 ```bash
-larament my-cool-app
+joinapp my-cool-app
 ```
